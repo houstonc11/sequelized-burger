@@ -1,16 +1,7 @@
-CREATE DATABASE burgers_db;
+DROP DATABASE IF EXISTS burgerSQL_db;
 
-USE burgers_db;
+CREATE DATABASE burgerSQL_db;
 
-CREATE TABLE burgers
-(
-	id int NOT NULL AUTO_INCREMENT,
-    burger_name VARCHAR (100),
-    devoured BOOLEAN DEFAULT false,
-    date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    PRIMARY KEY (id)
-)
-    
-SELECT * FROM burgers
+USE burgerSQL_db;
 
-
+SELECT * FROM burgerSQL_db;

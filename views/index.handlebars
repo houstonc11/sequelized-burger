@@ -17,7 +17,7 @@
   </div>
     <div class="col-sm-3 panel panel" id='readyBurger'>
       <h3 class="menuFont">Burgers</h3>     
-        {{#each burger}}
+        {{#each burgerTables}}
           {{#unless this.devoured}}           
             <li>      
                 {{this.burger_name}}
@@ -33,7 +33,7 @@
     <div class="col-sm-3 panel panel" id='devouredBurger'>
       <h3 class="menuFont">Eaten</h3>
       <table class="table table-striped table-bordered">
-        {{#each burger}}
+        {{#each burgerTables}}
           {{#if this.devoured}}
             <tr>
               <td>
