@@ -1,4 +1,4 @@
-# Burger-Up!
+# Burger-Up! (updated using sequelize)
 
 Burger-Up was created to showcase the use of Node to connect to a MySQL database and Express to handle the routing. Handlesbars was used  as a way to generate the HTML more quickly. The node package "sequelize" was utilized to more efficently write the ORM.
 
