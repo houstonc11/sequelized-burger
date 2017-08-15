@@ -1,0 +1,46 @@
+body {
+	height: 100vh;
+	background: linear-gradient(white,orange);
+
+}
+
+.table {
+	background: #ffce74;
+}
+
+.menuFont {
+	font-family: burgerFont;
+}
+
+@font-face {
+    font-family: burgerFont;
+    src: url(/assets/fonts/burgerFont.ttf);
+   
+}
+
+#titleFont {
+	font-family: burgerFont;
+	font-size: 75px;
+}
+
+#addBurger {
+	padding-bottom: 20px;
+	margin: 20px;
+}
+
+#readyBurger {
+	margin: 20px;
+}
+
+#devouredBurger {
+	margin: 20px;
+}
+
+.devourButton {
+	margin-top: 5px;
+	margin-left: 20px;
+}
+
+#burg {
+	width: 100%;
+}
